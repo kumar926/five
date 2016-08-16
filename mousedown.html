@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<div onmouseup="mup(this)" onmousedown="mdown(this)" style="background-color:red; width: 100px; height: 40px; padding: 30px;">click me</div>
+
+<script type="text/javascript">
+
+function mup(obj)
+{
+	obj.style.backgroundColor= "green";
+	obj.innerHTML="release me!";
+	}
+
+
+function mdown(obj)
+{
+	obj.style.backgroundColor= "yellow";
+	obj.innerHTML="Thank You!";
+	}
+
+</script>
+</body>
+</html>

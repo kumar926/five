@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<p class="m"> </p>
+<p class="m"> mahesh</p><p class="m">kumar</p><p class="m">aaryan</p><p class="m">manoj</p>
+</body>
+
+<script type="text/javascript">
+function fun(){
+var x=document.getElementsByClassName("m");
+/* document.getElementById('mahi').innerHTML='this is jAVA PROGRAM....'+x[2].innerHTML;
+ */
+ for(var i=0;i<x.length;i++)
+	 {
+	 
+	 
+	 x[i].style.backgroundColor= "red";
+	 }
+}
+ 
+
+ </script>
+ <input type="button" value="buttion" onclick="fun()">
+</html>

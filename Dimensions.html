@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript" src="C:\Users\Aaryan Rao Arudra\Desktop\jquery-3.0.0.min.js"></script>
+<style type="text/css">
+#div1 {
+
+height: 100px;
+width: 150px;
+padding: 20px;
+border: 1px solid blue; 
+background-color: red; 
+}
+</style>
+</head>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#b").click(function(){
+		var txt = "";
+		txt += "width of div1:"+$("#div1").width() + "</br>";
+
+		 txt += "width of div1:"+$("#div1").height() + "</br>";
+		$("#div1").html(txt);
+
+	})
+})
+
+</script>
+<body>
+<div id="div1"></div> <br><br>
+<button id="b">Display dimensions of div</button> <br><br>
+
+<p>width() - returns the width of an element.</p>
+<p>height() - returns the height of an element.</p>
+
+</body>
+</html>

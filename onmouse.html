@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<div onmouseover="mover(this)" onmouseout="mout(this)" style="background: red; width: 100px;height: 40; padding: 40px;"  > click me</div>
+<script type="text/javascript">
+function mover(obj)
+
+{
+	obj.style.backgroundColor="yellow";
+	obj.innerHTML="than Q !"
+	}
+function mout(obj)
+{
+	obj.style.backgroundColor="green";
+	obj.innerHTML="mouse over me!"
+	}
+</script>
+</body>
+</html>
